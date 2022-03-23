@@ -1,0 +1,32 @@
+{
+    "name": "helaplus/evoting",
+    "description": "A laravel package to make it simpler to create electronic voting platforms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Le-Yo",
+            "email": "leo@helaplus.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Helaplus\\Ussd\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Helaplus\\Ussd\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Helaplus\\Evoting\\EvotingServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
