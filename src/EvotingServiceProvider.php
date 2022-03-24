@@ -12,8 +12,8 @@ class EvotingServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'ussd');
 
         // Register the service the package provides.
-        $this->app->singleton('ussd', function ($app) {
-            return new Ussd($app);
+        $this->app->singleton('Evoting', function ($app) {
+            return new Evoting($app);
         });
     }
 

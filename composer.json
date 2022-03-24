@@ -11,12 +11,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Helaplus\\Ussd\\": "src/"
+            "Helaplus\\Evoting\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Helaplus\\Ussd\\Tests\\": "tests/"
+            "Helaplus\\Evoting\\Tests\\": "tests/"
         }
     },
     "extra": {
