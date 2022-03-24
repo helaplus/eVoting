@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->integer('evoting_category_id');
             $table->integer('evoting_nominee_id');
+            $table->string('code');
             $table->timestamps();
         });
     }

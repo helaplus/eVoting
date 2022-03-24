@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('evoting_nominees', function (Blueprint $table) {
             $table->id();
             $table->integer('evoting_election_id')->default(1);
-            $table->string('nominee')->nullable();
+            $table->string('name')->nullable();
             $table->timestamps();
         });
     }
