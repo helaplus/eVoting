@@ -2,7 +2,6 @@
 
 namespace Helaplus\Evoting;
 
-//use Helaplus\Ussd\Console\InstallUssdPackage;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
 
