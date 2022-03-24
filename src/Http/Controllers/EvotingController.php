@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Helaplus\Ussd\Http\Controllers;
+namespace Helaplus\Evoting\Http\Controllers;
 
 
 use Helaplus\Ussd\Models\UssdMenu;

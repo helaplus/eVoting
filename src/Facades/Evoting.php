@@ -1,6 +1,6 @@
 <?php
 
-namespace Helaplus\Ussd\Facades;
+namespace Helaplus\Evoting\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

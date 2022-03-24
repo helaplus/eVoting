@@ -1,6 +1,6 @@
 <?php
 
-namespace Helaplus\Ussd;
+namespace Helaplus\Evoting;
 
 //use Helaplus\Ussd\Console\InstallUssdPackage;
 use Illuminate\Support\ServiceProvider;

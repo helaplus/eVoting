@@ -1,6 +1,6 @@
 <?php
 
-namespace Helaplus\Ussd\Http\Controllers;
+namespace Helaplus\Evoting\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
