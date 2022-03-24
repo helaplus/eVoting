@@ -31,8 +31,10 @@ class EvotingServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             // Export the migration
                 $this->publishes([
-                    __DIR__ . '/../database/seeders/SeedUssdMenuTableSeeder.php' => database_path('seeders/SeedUssdMenuTableSeeder.php'),
-                    __DIR__ . '/../database/seeders/SeedUssdMenuItemsTableSeeder.php' => database_path('seeders/SeedUssdMenuItemsTableSeeder.php'),
+                    __DIR__ . '/../database/seeders/NomineeSeeder.php' => database_path('seeders/NomineeSeeder.php'),
+                    __DIR__ . '/../database/seeders/ElectionSeeder.php' => database_path('seeders/ElectionSeeder.php'),
+                    __DIR__ . '/../database/seeders/CategoriesSeeder.php' => database_path('seeders/CategoriesSeeder.php'),
+                    __DIR__ . '/../database/seeders/NomineeCategoriesSeeder.php' => database_path('seeders/NomineeCategoriesSeeder.php'),
                     // you can add any number of migrations here
                 ], 'seeders');
         }
