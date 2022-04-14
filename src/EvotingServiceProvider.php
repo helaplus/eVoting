@@ -49,12 +49,15 @@ class EvotingServiceProvider extends ServiceProvider
         });
 
         $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
+
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'evoting');
     }
 
     protected function routeConfiguration()
     {
         return [
-            'prefix' => config('ussd.prefix')
+            'prefix' => 'evoting',
+            'middleware' => ['web']
         ];
     }
 }
